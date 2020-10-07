@@ -7,6 +7,12 @@ Extension methods that add support for the [richer gRPC error model](https://grp
 
 ## Usage
 
+Add a reference to the [`GrpcRichError`](https://www.nuget.org/packages/GrpcRichError/) package to your project and use the namespace:
+
+```csharp
+using GrpcRichError;
+```
+
 To throw an RPC exception with a rich error details:
 
 ```csharp

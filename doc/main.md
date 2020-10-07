@@ -1,4 +1,4 @@
-Extension methods that add support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to .NET's gRPC implementation.
+Adds support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to [gRPC for .NET](https://github.com/grpc/grpc-dotnet) via extension methods.
 
 [**GitHub repository**](https://github.com/nano-byte/grpc-rich-error)
 

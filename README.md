@@ -3,7 +3,7 @@
 [![Build](https://github.com/nano-byte/grpc-rich-error/workflows/Build/badge.svg?branch=master)](https://github.com/nano-byte/grpc-rich-error/actions?query=workflow%3ABuild)
 [![NuGet](https://img.shields.io/nuget/v/GrpcRichError.svg)](https://www.nuget.org/packages/GrpcRichError/)
 [![API documentation](https://img.shields.io/badge/api-docs-orange.svg)](https://grpc-rich-error.nano-byte.net/)  
-Extension methods that add support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to .NET's gRPC implementation.
+Adds support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to [gRPC for .NET](https://github.com/grpc/grpc-dotnet) via extension methods.
 
 ## Usage
 

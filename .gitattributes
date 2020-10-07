@@ -1,0 +1,5 @@
+# Disable linebreak normalization
+* -text
+
+# Language-aware diff
+*.cs diff=csharp

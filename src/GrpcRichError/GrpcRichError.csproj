@@ -4,7 +4,7 @@
   <PropertyGroup>
     <AssemblyName>GrpcRichError</AssemblyName>
     <RootNamespace>GrpcRichError</RootNamespace>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <TargetFrameworks>net461;netstandard2.0;netstandard2.1</TargetFrameworks>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -32,7 +32,6 @@
   <ItemGroup>
     <PackageReference Include="Google.Api.CommonProtos" Version="2.3.0" />
     <PackageReference Include="Grpc.Core" Version="2.37.1" />
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 

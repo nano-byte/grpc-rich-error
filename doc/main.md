@@ -6,13 +6,13 @@ Adds support for the [richer gRPC error model](https://grpc.io/docs/guides/error
 
 Add a reference to the [`GrpcRichError`](https://www.nuget.org/packages/GrpcRichError/) package to your project and use the namespace:
 
-```csharp
+```{.cs}
 using GrpcRichError;
 ```
 
 To throw an RPC exception with a rich error details:
 
-```csharp
+```{.cs}
 throw new Google.Rpc.Status
 {
     Code = (int)StatusCode.NotFound,
@@ -34,7 +34,7 @@ throw new Google.Rpc.Status
 
 To extract rich error details from an RPC exception:
 
-```csharp
+```{.cs}
 try
 {
     // ...

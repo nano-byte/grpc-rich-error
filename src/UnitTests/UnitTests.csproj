@@ -5,7 +5,7 @@
     <AssemblyName>GrpcRichError.UnitTests</AssemblyName>
     <RootNamespace>GrpcRichError</RootNamespace>
     <LangVersion>9.0</LangVersion>
-    <TargetFrameworks>net461;net5.0</TargetFrameworks>
+    <TargetFrameworks>net461;net6.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <IsPackable>False</IsPackable>
     <DeterministicSourcePaths>False</DeterministicSourcePaths>

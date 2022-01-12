@@ -1,19 +1,22 @@
-Adds support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to [gRPC for .NET](https://github.com/grpc/grpc-dotnet) via extension methods.
+---
+title: Home
+---
 
-- \ref GrpcRichError "API reference"
-- [**GitHub repository**](https://github.com/nano-byte/grpc-rich-error)
+# gRPC Rich Error
+
+Adds support for the [richer gRPC error model](https://grpc.io/docs/guides/error/#richer-error-model) to [gRPC for .NET](https://github.com/grpc/grpc-dotnet) via extension methods.
 
 ## Usage
 
 Add a reference to the [`GrpcRichError`](https://www.nuget.org/packages/GrpcRichError/) package to your project and use the namespace:
 
-```{.cs}
+```csharp
 using GrpcRichError;
 ```
 
 To throw an RPC exception with a rich error details:
 
-```{.cs}
+```csharp
 throw new Google.Rpc.Status
 {
     Code = (int)StatusCode.NotFound,
@@ -35,7 +38,7 @@ throw new Google.Rpc.Status
 
 To extract rich error details from an RPC exception:
 
-```{.cs}
+```csharp
 try
 {
     // ...

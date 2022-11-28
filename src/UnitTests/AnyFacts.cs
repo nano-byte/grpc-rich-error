@@ -7,18 +7,17 @@ using Google.Protobuf.WellKnownTypes;
 using Google.Rpc;
 using Xunit;
 
-namespace GrpcRichError
-{
-    public class AnyFacts
-    {
-        [Fact]
-        public void RoundtripMessage()
-        {
-            var list = new RepeatedField<Any> {new ErrorInfo {Reason = "some reason"}};
+namespace GrpcRichError;
 
-            var message = list.GetMessage<ErrorInfo>();
-            message.Should().NotBeNull();
-            message!.Reason.Should().Be("some reason");
-        }
+public class AnyFacts
+{
+    [Fact]
+    public void RoundtripMessage()
+    {
+        var list = new RepeatedField<Any> {new ErrorInfo {Reason = "some reason"}};
+
+        var message = list.GetMessage<ErrorInfo>();
+        message.Should().NotBeNull();
+        message!.Reason.Should().Be("some reason");
     }
 }

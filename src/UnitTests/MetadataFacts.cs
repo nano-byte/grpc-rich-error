@@ -5,17 +5,16 @@ using FluentAssertions;
 using Grpc.Core;
 using Xunit;
 
-namespace GrpcRichError
+namespace GrpcRichError;
+
+public class MetadataFacts
 {
-    public class MetadataFacts
+    [Fact]
+    public void RoundtripRichStatus()
     {
-        [Fact]
-        public void RoundtripRichStatus()
-        {
-            var metadata = new Metadata {new Google.Rpc.Status {Message = "some message"}};
-            var status = metadata.GetRichStatus();
-            status.Should().NotBeNull();
-            status!.Message.Should().Be("some message");
-        }
+        var metadata = new Metadata {new Google.Rpc.Status {Message = "some message"}};
+        var status = metadata.GetRichStatus();
+        status.Should().NotBeNull();
+        status!.Message.Should().Be("some message");
     }
 }

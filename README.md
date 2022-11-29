@@ -13,7 +13,7 @@ Add a reference to the [`GrpcRichError`](https://www.nuget.org/packages/GrpcRich
 using GrpcRichError;
 ```
 
-To throw an RPC exception with a rich error details:
+To throw an RPC exception with rich error details:
 
 ```csharp
 throw new Google.Rpc.Status

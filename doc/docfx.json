@@ -3,12 +3,14 @@
     {
       "src": [
         {
-          "src": "../artifacts/Release/netstandard2.1",
-          "files": [
-            "GrpcRichError.dll"
-          ]
+          "src": "../src",
+          "files": ["*/*.csproj"],
+          "exclude": ["UnitTests/*"]
         }
       ],
+      "properties": {
+        "TargetFramework": "netstandard2.1"
+      },
       "dest": "api"
     }
   ],
@@ -29,19 +31,10 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "files": [
-          "*.png"
-        ]
-      }
-    ],
     "overwrite": [
       {
         "src": "../src/",
-        "files": [
-          "**/*.md"
-        ]
+        "files": ["**/*.md"]
       }
     ],
     "xrefService": [

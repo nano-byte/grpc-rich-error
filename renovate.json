@@ -9,7 +9,7 @@
       "automergeType": "branch"
     },
     {
-      "matchPackagePatterns": ["gittools", "SourceLink", "Grpc", "Google"],
+      "matchPackagePatterns": ["gittools", "docfx", "SourceLink", "Grpc", "Google"],
       "automerge": true,
       "automergeType": "branch"
     }

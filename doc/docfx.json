@@ -8,9 +8,6 @@
           "exclude": ["UnitTests/*"]
         }
       ],
-      "properties": {
-        "TargetFramework": "netstandard2.1"
-      },
       "dest": "api"
     }
   ],

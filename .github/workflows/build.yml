@@ -10,10 +10,10 @@ jobs:
         with:
           fetch-depth: 0
           show-progress: false
-      - uses: gittools/actions/gitversion/setup@v0.11.0
+      - uses: gittools/actions/gitversion/setup@v3.0.3
         with:
           versionSpec: '5.12.x'
-      - uses: gittools/actions/gitversion/execute@v0.11.0
+      - uses: gittools/actions/gitversion/execute@v3.0.3
         id: gitversion
 
       # Build
@@ -34,12 +34,12 @@ jobs:
       # Release
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
 
       # Publish
       - name: Publish documentation
         if: github.ref_type == 'tag'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{github.token}}
           force_orphan: true

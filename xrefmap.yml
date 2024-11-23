@@ -1,0 +1,174 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GrpcRichError
+  name: GrpcRichError
+  href: api/GrpcRichError.html
+  commentId: N:GrpcRichError
+  fullName: GrpcRichError
+  nameWithType: GrpcRichError
+- uid: GrpcRichError.AnyListExtensions
+  name: AnyListExtensions
+  href: api/GrpcRichError.AnyListExtensions.html
+  commentId: T:GrpcRichError.AnyListExtensions
+  fullName: GrpcRichError.AnyListExtensions
+  nameWithType: AnyListExtensions
+- uid: GrpcRichError.AnyListExtensions.Add(Google.Protobuf.Collections.RepeatedField{Google.Protobuf.WellKnownTypes.Any},Google.Protobuf.IMessage)
+  name: Add(RepeatedField<Any>, IMessage)
+  href: api/GrpcRichError.AnyListExtensions.html#GrpcRichError_AnyListExtensions_Add_Google_Protobuf_Collections_RepeatedField_Google_Protobuf_WellKnownTypes_Any__Google_Protobuf_IMessage_
+  commentId: M:GrpcRichError.AnyListExtensions.Add(Google.Protobuf.Collections.RepeatedField{Google.Protobuf.WellKnownTypes.Any},Google.Protobuf.IMessage)
+  name.vb: Add(RepeatedField(Of Any), IMessage)
+  fullName: GrpcRichError.AnyListExtensions.Add(Google.Protobuf.Collections.RepeatedField<Google.Protobuf.WellKnownTypes.Any>, Google.Protobuf.IMessage)
+  fullName.vb: GrpcRichError.AnyListExtensions.Add(Google.Protobuf.Collections.RepeatedField(Of Google.Protobuf.WellKnownTypes.Any), Google.Protobuf.IMessage)
+  nameWithType: AnyListExtensions.Add(RepeatedField<Any>, IMessage)
+  nameWithType.vb: AnyListExtensions.Add(RepeatedField(Of Any), IMessage)
+- uid: GrpcRichError.AnyListExtensions.Add*
+  name: Add
+  href: api/GrpcRichError.AnyListExtensions.html#GrpcRichError_AnyListExtensions_Add_
+  commentId: Overload:GrpcRichError.AnyListExtensions.Add
+  isSpec: "True"
+  fullName: GrpcRichError.AnyListExtensions.Add
+  nameWithType: AnyListExtensions.Add
+- uid: GrpcRichError.AnyListExtensions.GetMessage*
+  name: GetMessage
+  href: api/GrpcRichError.AnyListExtensions.html#GrpcRichError_AnyListExtensions_GetMessage_
+  commentId: Overload:GrpcRichError.AnyListExtensions.GetMessage
+  isSpec: "True"
+  fullName: GrpcRichError.AnyListExtensions.GetMessage
+  nameWithType: AnyListExtensions.GetMessage
+- uid: GrpcRichError.AnyListExtensions.GetMessage``1(System.Collections.Generic.IEnumerable{Google.Protobuf.WellKnownTypes.Any})
+  name: GetMessage<T>(IEnumerable<Any>)
+  href: api/GrpcRichError.AnyListExtensions.html#GrpcRichError_AnyListExtensions_GetMessage__1_System_Collections_Generic_IEnumerable_Google_Protobuf_WellKnownTypes_Any__
+  commentId: M:GrpcRichError.AnyListExtensions.GetMessage``1(System.Collections.Generic.IEnumerable{Google.Protobuf.WellKnownTypes.Any})
+  name.vb: GetMessage(Of T)(IEnumerable(Of Any))
+  fullName: GrpcRichError.AnyListExtensions.GetMessage<T>(System.Collections.Generic.IEnumerable<Google.Protobuf.WellKnownTypes.Any>)
+  fullName.vb: GrpcRichError.AnyListExtensions.GetMessage(Of T)(System.Collections.Generic.IEnumerable(Of Google.Protobuf.WellKnownTypes.Any))
+  nameWithType: AnyListExtensions.GetMessage<T>(IEnumerable<Any>)
+  nameWithType.vb: AnyListExtensions.GetMessage(Of T)(IEnumerable(Of Any))
+- uid: GrpcRichError.MetadataExtensions
+  name: MetadataExtensions
+  href: api/GrpcRichError.MetadataExtensions.html
+  commentId: T:GrpcRichError.MetadataExtensions
+  fullName: GrpcRichError.MetadataExtensions
+  nameWithType: MetadataExtensions
+- uid: GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata,Google.Rpc.Status)
+  name: Add(Metadata, Status)
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_Add_Grpc_Core_Metadata_Google_Rpc_Status_
+  commentId: M:GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata,Google.Rpc.Status)
+  fullName: GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata, Google.Rpc.Status)
+  nameWithType: MetadataExtensions.Add(Metadata, Status)
+- uid: GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata,System.String,Google.Protobuf.IMessage)
+  name: Add(Metadata, string, IMessage)
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_Add_Grpc_Core_Metadata_System_String_Google_Protobuf_IMessage_
+  commentId: M:GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata,System.String,Google.Protobuf.IMessage)
+  name.vb: Add(Metadata, String, IMessage)
+  fullName: GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata, string, Google.Protobuf.IMessage)
+  fullName.vb: GrpcRichError.MetadataExtensions.Add(Grpc.Core.Metadata, String, Google.Protobuf.IMessage)
+  nameWithType: MetadataExtensions.Add(Metadata, string, IMessage)
+  nameWithType.vb: MetadataExtensions.Add(Metadata, String, IMessage)
+- uid: GrpcRichError.MetadataExtensions.Add*
+  name: Add
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_Add_
+  commentId: Overload:GrpcRichError.MetadataExtensions.Add
+  isSpec: "True"
+  fullName: GrpcRichError.MetadataExtensions.Add
+  nameWithType: MetadataExtensions.Add
+- uid: GrpcRichError.MetadataExtensions.GetMessage*
+  name: GetMessage
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_GetMessage_
+  commentId: Overload:GrpcRichError.MetadataExtensions.GetMessage
+  isSpec: "True"
+  fullName: GrpcRichError.MetadataExtensions.GetMessage
+  nameWithType: MetadataExtensions.GetMessage
+- uid: GrpcRichError.MetadataExtensions.GetMessage``1(Grpc.Core.Metadata,System.String)
+  name: GetMessage<T>(Metadata, string)
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_GetMessage__1_Grpc_Core_Metadata_System_String_
+  commentId: M:GrpcRichError.MetadataExtensions.GetMessage``1(Grpc.Core.Metadata,System.String)
+  name.vb: GetMessage(Of T)(Metadata, String)
+  fullName: GrpcRichError.MetadataExtensions.GetMessage<T>(Grpc.Core.Metadata, string)
+  fullName.vb: GrpcRichError.MetadataExtensions.GetMessage(Of T)(Grpc.Core.Metadata, String)
+  nameWithType: MetadataExtensions.GetMessage<T>(Metadata, string)
+  nameWithType.vb: MetadataExtensions.GetMessage(Of T)(Metadata, String)
+- uid: GrpcRichError.MetadataExtensions.GetRichStatus(Grpc.Core.Metadata)
+  name: GetRichStatus(Metadata)
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_GetRichStatus_Grpc_Core_Metadata_
+  commentId: M:GrpcRichError.MetadataExtensions.GetRichStatus(Grpc.Core.Metadata)
+  fullName: GrpcRichError.MetadataExtensions.GetRichStatus(Grpc.Core.Metadata)
+  nameWithType: MetadataExtensions.GetRichStatus(Metadata)
+- uid: GrpcRichError.MetadataExtensions.GetRichStatus*
+  name: GetRichStatus
+  href: api/GrpcRichError.MetadataExtensions.html#GrpcRichError_MetadataExtensions_GetRichStatus_
+  commentId: Overload:GrpcRichError.MetadataExtensions.GetRichStatus
+  isSpec: "True"
+  fullName: GrpcRichError.MetadataExtensions.GetRichStatus
+  nameWithType: MetadataExtensions.GetRichStatus
+- uid: GrpcRichError.RpcExceptionExtensions
+  name: RpcExceptionExtensions
+  href: api/GrpcRichError.RpcExceptionExtensions.html
+  commentId: T:GrpcRichError.RpcExceptionExtensions
+  fullName: GrpcRichError.RpcExceptionExtensions
+  nameWithType: RpcExceptionExtensions
+- uid: GrpcRichError.RpcExceptionExtensions.GetDetail*
+  name: GetDetail
+  href: api/GrpcRichError.RpcExceptionExtensions.html#GrpcRichError_RpcExceptionExtensions_GetDetail_
+  commentId: Overload:GrpcRichError.RpcExceptionExtensions.GetDetail
+  isSpec: "True"
+  fullName: GrpcRichError.RpcExceptionExtensions.GetDetail
+  nameWithType: RpcExceptionExtensions.GetDetail
+- uid: GrpcRichError.RpcExceptionExtensions.GetDetail``1(Grpc.Core.RpcException)
+  name: GetDetail<T>(RpcException)
+  href: api/GrpcRichError.RpcExceptionExtensions.html#GrpcRichError_RpcExceptionExtensions_GetDetail__1_Grpc_Core_RpcException_
+  commentId: M:GrpcRichError.RpcExceptionExtensions.GetDetail``1(Grpc.Core.RpcException)
+  name.vb: GetDetail(Of T)(RpcException)
+  fullName: GrpcRichError.RpcExceptionExtensions.GetDetail<T>(Grpc.Core.RpcException)
+  fullName.vb: GrpcRichError.RpcExceptionExtensions.GetDetail(Of T)(Grpc.Core.RpcException)
+  nameWithType: RpcExceptionExtensions.GetDetail<T>(RpcException)
+  nameWithType.vb: RpcExceptionExtensions.GetDetail(Of T)(RpcException)
+- uid: GrpcRichError.RpcExceptionExtensions.GetRichStatus(Grpc.Core.RpcException)
+  name: GetRichStatus(RpcException)
+  href: api/GrpcRichError.RpcExceptionExtensions.html#GrpcRichError_RpcExceptionExtensions_GetRichStatus_Grpc_Core_RpcException_
+  commentId: M:GrpcRichError.RpcExceptionExtensions.GetRichStatus(Grpc.Core.RpcException)
+  fullName: GrpcRichError.RpcExceptionExtensions.GetRichStatus(Grpc.Core.RpcException)
+  nameWithType: RpcExceptionExtensions.GetRichStatus(RpcException)
+- uid: GrpcRichError.RpcExceptionExtensions.GetRichStatus*
+  name: GetRichStatus
+  href: api/GrpcRichError.RpcExceptionExtensions.html#GrpcRichError_RpcExceptionExtensions_GetRichStatus_
+  commentId: Overload:GrpcRichError.RpcExceptionExtensions.GetRichStatus
+  isSpec: "True"
+  fullName: GrpcRichError.RpcExceptionExtensions.GetRichStatus
+  nameWithType: RpcExceptionExtensions.GetRichStatus
+- uid: GrpcRichError.StatusExtensions
+  name: StatusExtensions
+  href: api/GrpcRichError.StatusExtensions.html
+  commentId: T:GrpcRichError.StatusExtensions
+  fullName: GrpcRichError.StatusExtensions
+  nameWithType: StatusExtensions
+- uid: GrpcRichError.StatusExtensions.GetDetail*
+  name: GetDetail
+  href: api/GrpcRichError.StatusExtensions.html#GrpcRichError_StatusExtensions_GetDetail_
+  commentId: Overload:GrpcRichError.StatusExtensions.GetDetail
+  isSpec: "True"
+  fullName: GrpcRichError.StatusExtensions.GetDetail
+  nameWithType: StatusExtensions.GetDetail
+- uid: GrpcRichError.StatusExtensions.GetDetail``1(Google.Rpc.Status)
+  name: GetDetail<T>(Status)
+  href: api/GrpcRichError.StatusExtensions.html#GrpcRichError_StatusExtensions_GetDetail__1_Google_Rpc_Status_
+  commentId: M:GrpcRichError.StatusExtensions.GetDetail``1(Google.Rpc.Status)
+  name.vb: GetDetail(Of T)(Status)
+  fullName: GrpcRichError.StatusExtensions.GetDetail<T>(Google.Rpc.Status)
+  fullName.vb: GrpcRichError.StatusExtensions.GetDetail(Of T)(Google.Rpc.Status)
+  nameWithType: StatusExtensions.GetDetail<T>(Status)
+  nameWithType.vb: StatusExtensions.GetDetail(Of T)(Status)
+- uid: GrpcRichError.StatusExtensions.ToException(Google.Rpc.Status)
+  name: ToException(Status)
+  href: api/GrpcRichError.StatusExtensions.html#GrpcRichError_StatusExtensions_ToException_Google_Rpc_Status_
+  commentId: M:GrpcRichError.StatusExtensions.ToException(Google.Rpc.Status)
+  fullName: GrpcRichError.StatusExtensions.ToException(Google.Rpc.Status)
+  nameWithType: StatusExtensions.ToException(Status)
+- uid: GrpcRichError.StatusExtensions.ToException*
+  name: ToException
+  href: api/GrpcRichError.StatusExtensions.html#GrpcRichError_StatusExtensions_ToException_
+  commentId: Overload:GrpcRichError.StatusExtensions.ToException
+  isSpec: "True"
+  fullName: GrpcRichError.StatusExtensions.ToException
+  nameWithType: StatusExtensions.ToException

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <AssemblyName>GrpcRichError.UnitTests</AssemblyName>
     <RootNamespace>GrpcRichError</RootNamespace>
-    <LangVersion>10.0</LangVersion>
+    <LangVersion>13.0</LangVersion>
     <TargetFrameworks>net462;net9.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <IsPackable>False</IsPackable>

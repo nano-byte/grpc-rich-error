@@ -5,12 +5,17 @@
     <AssemblyName>GrpcRichError.UnitTests</AssemblyName>
     <RootNamespace>GrpcRichError</RootNamespace>
     <LangVersion>10.0</LangVersion>
-    <TargetFrameworks>net462;net6.0</TargetFrameworks>
+    <TargetFrameworks>net462;net9.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <IsPackable>False</IsPackable>
     <DeterministicSourcePaths>False</DeterministicSourcePaths>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
+
+  <!-- Mark as unit test project -->
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
 
   <!-- Dependencies -->
   <ItemGroup>
@@ -22,11 +27,6 @@
     <PackageReference Include="Moq" Version="4.20.71" />
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
-  </ItemGroup>
-
-  <!-- Mark as unit test project -->
-  <ItemGroup>
-    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
   </ItemGroup>
 
 </Project>

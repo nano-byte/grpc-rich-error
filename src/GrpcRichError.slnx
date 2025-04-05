@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GrpcRichError/GrpcRichError.csproj" />
+  <Project Path="UnitTests/UnitTests.csproj" />
+</Solution>

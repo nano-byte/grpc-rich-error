@@ -1,0 +1,125 @@
+{
+  "source_base_path": "/home/runner/work/grpc-rich-error/grpc-rich-error/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GrpcRichError.AnyListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GrpcRichError.AnyListExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GrpcRichError.AnyListExtensions",
+      "Summary": "<p sourcefile=\"api/GrpcRichError.AnyListExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for lists of <xref href=\"Google.Protobuf.WellKnownTypes.Any\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GrpcRichError.MetadataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GrpcRichError.MetadataExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GrpcRichError.MetadataExtensions",
+      "Summary": "<p sourcefile=\"api/GrpcRichError.MetadataExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Grpc.Core.Metadata\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GrpcRichError.RpcExceptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GrpcRichError.RpcExceptionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GrpcRichError.RpcExceptionExtensions",
+      "Summary": "<p sourcefile=\"api/GrpcRichError.RpcExceptionExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Grpc.Core.RpcException\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GrpcRichError.StatusExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GrpcRichError.StatusExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GrpcRichError.StatusExtensions",
+      "Summary": "<p sourcefile=\"api/GrpcRichError.StatusExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Google.Rpc.Status\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GrpcRichError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GrpcRichError.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GrpcRichError",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

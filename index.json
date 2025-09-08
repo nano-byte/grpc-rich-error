@@ -1,0 +1,32 @@
+{
+  "api/GrpcRichError.AnyListExtensions.html": {
+    "href": "api/GrpcRichError.AnyListExtensions.html",
+    "title": "Class AnyListExtensions | gRPC Rich Error",
+    "summary": "Class AnyListExtensions Namespace GrpcRichError Assembly GrpcRichError.dll Extension methods for lists of Google.Protobuf.WellKnownTypes.Any. public static class AnyListExtensions Inheritance object AnyListExtensions Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods Add(RepeatedField<Any>, IMessage) Adds a message to an Google.Protobuf.WellKnownTypes.Any list. public static void Add(this RepeatedField<Any> anyList, IMessage message) Parameters anyList RepeatedField<Any> message IMessage GetMessage<T>(IEnumerable<Any>) Extracts a message of a specific type if available. [Pure] public static T? GetMessage<T>(this IEnumerable<Any> anyList) where T : class, IMessage<T>, new() Parameters anyList IEnumerable<Any> The list to search. Returns T The extracted message if found; null if not found. Type Parameters T The type of the detail to extract."
+  },
+  "api/GrpcRichError.MetadataExtensions.html": {
+    "href": "api/GrpcRichError.MetadataExtensions.html",
+    "title": "Class MetadataExtensions | gRPC Rich Error",
+    "summary": "Class MetadataExtensions Namespace GrpcRichError Assembly GrpcRichError.dll Extension methods for Metadata. public static class MetadataExtensions Inheritance object MetadataExtensions Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods Add(Metadata, Status) Adds a rich error model to the headers. public static void Add(this Metadata metadata, Status status) Parameters metadata Metadata status Status Add(Metadata, string, IMessage) Adds a binary message to the headers. public static void Add(this Metadata metadata, string key, IMessage message) Parameters metadata Metadata key string message IMessage GetMessage<T>(Metadata, string) Returns a message header if available [Pure] public static T? GetMessage<T>(this Metadata metadata, string key) where T : class, IMessage<T>, new() Parameters metadata Metadata key string Returns T The deserialized message if found; null if not found. Type Parameters T GetRichStatus(Metadata) Returns the rich error model if available. [Pure] public static Status? GetRichStatus(this Metadata metadata) Parameters metadata Metadata Returns Status The rich error model if found; null if not found."
+  },
+  "api/GrpcRichError.RpcExceptionExtensions.html": {
+    "href": "api/GrpcRichError.RpcExceptionExtensions.html",
+    "title": "Class RpcExceptionExtensions | gRPC Rich Error",
+    "summary": "Class RpcExceptionExtensions Namespace GrpcRichError Assembly GrpcRichError.dll Extension methods for RpcException. public static class RpcExceptionExtensions Inheritance object RpcExceptionExtensions Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods GetDetail<T>(RpcException) Extracts an error detail of a specific type if available. [Pure] public static T? GetDetail<T>(this RpcException exception) where T : class, IMessage<T>, new() Parameters exception RpcException The error to extract the detail from. Returns T The extracted error detail if found; null if not found. Type Parameters T The type of the detail to extract. GetRichStatus(RpcException) Returns the rich error model if available. [Pure] public static Status? GetRichStatus(this RpcException exception) Parameters exception RpcException Returns Status The rich error model if found; null if not found."
+  },
+  "api/GrpcRichError.StatusExtensions.html": {
+    "href": "api/GrpcRichError.StatusExtensions.html",
+    "title": "Class StatusExtensions | gRPC Rich Error",
+    "summary": "Class StatusExtensions Namespace GrpcRichError Assembly GrpcRichError.dll Extension methods for Status. public static class StatusExtensions Inheritance object StatusExtensions Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods GetDetail<T>(Status) Extracts an error detail of a specific type if available. [Pure] public static T? GetDetail<T>(this Status status) where T : class, IMessage<T>, new() Parameters status Status The status to extract the detail from. Returns T The extracted error detail if found; null if not found. Type Parameters T The type of the detail to extract. ToException(Status) Builds a RpcException from a rich error model. [Pure] public static RpcException ToException(this Status status) Parameters status Status Returns RpcException"
+  },
+  "api/GrpcRichError.html": {
+    "href": "api/GrpcRichError.html",
+    "title": "Namespace GrpcRichError | gRPC Rich Error",
+    "summary": "Namespace GrpcRichError Classes AnyListExtensions Extension methods for lists of Google.Protobuf.WellKnownTypes.Any. MetadataExtensions Extension methods for Metadata. RpcExceptionExtensions Extension methods for RpcException. StatusExtensions Extension methods for Status."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Home | gRPC Rich Error",
+    "summary": "gRPC Rich Error Adds support for the richer gRPC error model to gRPC for .NET via extension methods. Usage Add a reference to the GrpcRichError package to your project and use the namespace: using GrpcRichError; To throw an RPC exception with rich error details: throw new Google.Rpc.Status { Code = (int)StatusCode.NotFound, Message = \"some message\", Details = { new ErrorInfo { Domain = \"example.com\", Reason = \"some reason\" }, new BadRequest { // ... } } }.ToException(); To extract rich error details from an RPC exception: try { // ... } catch (RpcException ex) { var info = ex.GetDetail<ErrorInfo>(); if (info != null) { // ... } }"
+  }
+}

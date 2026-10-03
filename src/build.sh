@@ -9,5 +9,5 @@ else
     dotnet="../0install.sh run --version 9.0.200.. https://apps.0install.net/dotnet/sdk.xml"
 fi
 
-# Build
+echo "Build binaries"
 $dotnet msbuild -v:Quiet -restore -t:Build -p:Configuration=Release -p:Version=${1:-1.0.0-pre} ${CI+-p:ContinuousIntegrationBuild=True}

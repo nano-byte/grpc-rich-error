@@ -9,5 +9,5 @@ else
     dotnet="../0install.sh run --version 9.0..!9.1 https://apps.0install.net/dotnet/sdk.xml"
 fi
 
-# Unit tests (without .NET Framework)
+echo "Run unit tests (without .NET Framework)"
 $dotnet test --no-build --logger trx --configuration Release --framework net9.0 UnitTests/UnitTests.csproj

@@ -26,6 +26,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>gRPC;status;rich;error model</PackageTags>
     <RepositoryUrl>https://github.com/nano-byte/grpc-rich-error</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/nano-byte/grpc-rich-error/releases/tag/$(Version)</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
